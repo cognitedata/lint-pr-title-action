@@ -26,29 +26,20 @@
   "author": "Julien Karst",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/types": "11.0.0",
-    "@types/jest": "26.0.23",
+    "@commitlint/types": "^12.1.4",
     "@types/node": "12.20.13",
     "@typescript-eslint/parser": "4.22.0",
-    "@vercel/ncc": "0.28.6",
     "eslint": "7.23.0",
     "eslint-plugin-github": "3.4.1",
-    "eslint-plugin-jest": "23.20.0",
     "eslint-plugin-prettier": "3.3.1",
-    "jest": "25.5.3",
-    "jest-circus": "25.5.3",
     "js-yaml": "3.14.1",
     "prettier": "2.2.1",
-    "ts-jest": "25.4.0",
     "typescript": "3.9.7"
   },
   "dependencies": {
     "@actions/core": "1.2.6",
     "@actions/github": "4.0.0",
-    "@commitlint/lint": "11.0.0",
-    "@commitlint/load": "11.0.0"
-  },
-  "resolutions": {
-    "import-fresh": "JulienKode/import-fresh#fix/issue-when-there-no-parent-module"
+    "@commitlint/lint": "^12.1.4",
+    "@commitlint/load": "^12.1.4"
   }
 }
