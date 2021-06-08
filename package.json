@@ -1,6 +1,6 @@
 {
   "name": "lint-pr-title-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Run commitlint on pull request name.",
   "main": "lib/main.js",
