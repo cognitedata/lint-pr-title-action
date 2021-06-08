@@ -4,7 +4,7 @@ author: 'Julien Karst'
 inputs:
   configurationPath:
     description: 'The path for the commitlint configurations'
-    required: true
+    required: false
     default: './commitlint.config.js'
 runs:
   using: 'node12'
