@@ -1,1 +1,3 @@
-module.exports = {rules: {'scope-case': [2, 'always', 'lower-case']}}
+module.exports = {
+  extends: ['@commitlint/config-conventional']
+}
