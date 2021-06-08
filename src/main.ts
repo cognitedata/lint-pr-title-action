@@ -4,7 +4,7 @@ import {lintPullRequest} from './linter'
 
 async function run(): Promise<void> {
   try {
-    const configPath = core.getInput('configuration-path', {required: true})
+    const configPath = core.getInput('configurationPath', {required: true})
     const title = getPrTitle()
     if (!title) {
       core.debug('Could not get pull request title from context, exiting')

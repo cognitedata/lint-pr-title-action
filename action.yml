@@ -2,9 +2,9 @@ name: 'Pull request linter action'
 description: "Lint your pull request name based on commitlint configuration"
 author: 'Julien Karst'
 inputs:
-  configuration-path:
+  configurationPath:
     description: 'The path for the commitlint configurations'
-    required: false
+    required: true
     default: './commitlint.config.js'
 runs:
   using: 'node12'
