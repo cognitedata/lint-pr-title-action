@@ -5833,7 +5833,7 @@ const load_1 = __importDefault(__webpack_require__(420));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const configPath = core.getInput('configuration-path', { required: true });
+            const configPath = core.getInput('configurationPath', { required: true });
             const title = getPrTitle();
             if (!title) {
                 core.debug('Could not get pull request title from context, exiting');
