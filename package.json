@@ -1,6 +1,6 @@
 {
-  "name": "pull-request-commitlint-action",
-  "version": "0.1.2",
+  "name": "lint-pr-title-action",
+  "version": "1.0.0",
   "private": true,
   "description": "Run commitlint on pull request name.",
   "main": "lib/main.js",
@@ -10,7 +10,6 @@
     "format-check": "prettier --check **/*.ts",
     "lint": "eslint src/**/*.ts",
     "pack": "ncc build",
-    "test": "jest",
     "build:pack": "npm run build && npm run pack",
     "all": "npm run build && npm run test && npm run format && npm run lint && npm run pack"
   },
