@@ -43,6 +43,8 @@ function getLintOptions(configuration: QualifiedConfig): LintOptions {
 }
 
 export async function lintPullRequest(title: string, configPath: string) {
+  // eslint-disable-next-line no-console
+  console.log(`PR title: ${title}`)
   const configuration = await load({}, {file: configPath, cwd: process.cwd()})
 
   const options = getLintOptions(configuration)
